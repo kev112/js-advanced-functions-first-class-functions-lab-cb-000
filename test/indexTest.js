@@ -42,20 +42,20 @@ describe('index.js', function () {
   //     expect(selectingDrivers[1](drivers)).to.eql(['Freddy', 'Claudia']);
   //   });
   // });
+  // // 
+  // describe('createFareMultiplier()', function () {
+  //   it('returns a function', function () {
+  //     const fareMultiplier = createFareMultiplier(2);
   // 
-  describe('createFareMultiplier()', function () {
-    it('returns a function', function () {
-      const fareMultiplier = createFareMultiplier(2);
-  
-      expect(fareMultiplier).to.be.a('function');
-    });
-  
-    it('should multiply a given value using the created multiplier', function () {
-      const fareQuintupler = createFareMultiplier(5);
-  
-      expect(fareQuintupler(5)).to.eql(25);
-    });
-  });
+  //     expect(fareMultiplier).to.be.a('function');
+  //   });
+  // 
+  //   it('should multiply a given value using the created multiplier', function () {
+  //     const fareQuintupler = createFareMultiplier(5);
+  // 
+  //     expect(fareQuintupler(5)).to.eql(25);
+  //   });
+  // });
 
   describe('fareDoubler()', function () {
     it('is a function', function () {
